@@ -19,9 +19,14 @@ To generate the pencil sketch,the original grayscaled image was blurred and then
 
 Using Computer Vision
 Writing more elegant python code
-Extracting pixels from an image and maping data onto it.
+Extracting pixels from an image and mapping data onto it.
 
-#Additional feature/task
+# Additional feature/task
 
 Additionally,my project generates a pencil sketch of the image which looks cool :)
+
+# Video Demo
+
+
+https://user-images.githubusercontent.com/79641239/174442625-90307f43-5fae-48a5-9c89-8cbf778c8793.mp4
 

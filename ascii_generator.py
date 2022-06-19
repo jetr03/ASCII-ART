@@ -6,6 +6,9 @@ import numpy as np
 #Reading the image using computer vision
 
 img = cv2.imread("116.jpg")
+
+#Making a copy of the original image for pencil sketch
+
 im2 = img
 
 #Changing image color scheme
@@ -54,6 +57,9 @@ with open("final_ascii_art.txt", "w") as f:
 #Creating pencil sketch
 
 grey_img = cv2.cvtColor(im2,cv2.COLOR_BGR2GRAY)
+
+#Blurring and inverting the image
+
 inverted_image = cv2.bitwise_not(grey_img)
 blurred_image=cv2.GaussianBlur(inverted_image,(81,81),0)
 inverted_blur  = cv2.bitwise_not(blurred_image)
